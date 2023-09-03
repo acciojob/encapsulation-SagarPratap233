@@ -6,8 +6,8 @@ public class Main {
 
 //        obj.variable = "some value";
         //java: variable has private access in com.driver.RWOnly
-        obj.setVariable("New Value");
-        System.out.println(obj.getVariable());
+        obj.setName("New Value");
+        System.out.println(obj.getName());
     }
 
 }
